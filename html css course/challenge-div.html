@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        p {
+            margin-top: 6px;
+            margin-bottom: 0px;
+            margin-left: 6px;
+            font-family: Arial;
+        }
+
+        .name-text {
+            font-weight: bolder;
+            font-size: 15px;
+        }
+
+        .cocker-img,.mutualfriends-text{
+            vertical-align: middle;
+            margin-top: 6px;
+        }
+
+        .cocker-img {
+            width: 30px;
+            display: inline-block;
+            border-radius: 50px;
+        }
+
+        .mutualfriends-text {
+            color: rgb(129, 129, 129);
+            font-size: 13px;
+            display: inline-block;
+        }
+
+        .add-button {
+            margin-top: 12px;
+            margin-left: 6px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            color: white;
+            background-color: rgb(96, 96, 255);
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: opacity 0.25s,
+                background-color 0.25s;
+        }
+
+        .add-button:hover {
+            opacity: 0.8;
+        }
+
+        .add-button:active {
+            background-color: rebeccapurple;
+        }
+
+        .friend-suggestion {
+            display: inline-block;
+            width: 200px;
+            height: 312px;
+            border: none;
+            box-shadow: 100px 0px 0px rgba(0, 0, 0, 0.7);
+            vertical-align: top;
+        }
+
+        .pitbull-img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="friend-suggestion">
+        <div>
+            <img src="pitbull.jpg" class="pitbull-img">
+        </div>
+        <div>
+            <p class="name-text">
+                Pitbull
+            </p>
+        </div>
+        <div class="mutual-friends-layout">
+            <img src="cocker.jpg" class="cocker-img">
+            <p class="mutualfriends-text">
+                2 mutual friends
+            </p>
+
+        </div>
+        <div>
+            <button class="add-button">
+                Add friend
+            </button>
+        </div>
+
+    </div>
+    <div class="friend-suggestion">
+        <div>
+            <img src="pitbull-2.jpg" class="pitbull-img">
+        </div>
+        <div>
+            <p class="name-text">
+                Pitbull
+            </p>
+        </div>
+        <div class="mutual-friends-layout">
+            <img src="cocker.jpg" class="cocker-img">
+            <p class="mutualfriends-text">
+                2 mutual friends
+            </p>
+
+        </div>
+        <div>
+            <button class="add-button">
+                Add friend
+            </button>
+        </div>
+
+    </div>
+</body>
+
+</html>
